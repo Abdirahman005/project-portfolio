@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+body {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: i.3rem;
+    
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-bottom: 1px solid blue;
+}
+
+
+
+}
+header h2 {
+    color: #697c8e;
+    
+}
+    
+
+.hero {
+    background-color: rgb(253,255,253);
+    width: 92%;
+    display: flex;
+    margin: auto;
+    
+}
+.hero img {
+    margin-right: 24px;
+    
+}
+.hero div {
+    padding: 30px;
+    font-size: 5rem;
+    color: grey;
+
+}
+nav {
+    height: 80px;
+    width: 400px;
+}
+ ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+ul li a {
+    color: #dc757d;
+}
+ul li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.drinks {
+    background-color: rgb(254, 254, 2254);
+    height: 400px;
+    width: 100px;
+    margin-top: 80px;
+    border-top: 1px solid rgb(241,241,241);
+    border-bottom: 1px solid rgb(241,241,241);
+}
+.boxes {
+    height: 380px;
+    width: 30%;
+    margin:auto;
+    padding: 20px;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+}
+.footer{
+    background-color:#697c8e;
+    height: 160px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+}
+.sub-footer{
+    background-color: lightblue;
+
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
